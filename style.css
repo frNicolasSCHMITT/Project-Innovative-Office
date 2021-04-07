@@ -1,0 +1,23 @@
+.décoimg{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+}
+.texte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+body{
+    color: steelblue;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: steelblue;
+}
+.btnsteel:hover{
+    background-color: steelblue;
+}
