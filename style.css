@@ -9,6 +9,9 @@
     justify-content: center;
     margin-top: 2%;
 }
+.titre{
+    margin-bottom: 5%;
+}
 body{
     color: steelblue;
 }
@@ -20,4 +23,23 @@ a:hover{
 }
 .btnsteel:hover{
     background-color: steelblue;
+}
+.rectangle{
+    width: 40%;
+    height: 25%;
+    background-color: steelblue;
+    z-index: -1;
+    position: absolute;
+    margin-top: 1%;
+}
+.recbas{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* .rec2{
+} */
+@media screen and (max-width:769px) {
+    .rectangle{
+        display: none;
+    }  
 }
